@@ -1,5 +1,5 @@
 package com;
 
 public class C1 {
-	int i;
+	private int i;
 }
