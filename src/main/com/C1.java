@@ -6,6 +6,7 @@ public class C1 {
 	public int addI(int j) {
 		
 		System.out.println("function addI");
+		j++;
 		return j;
 	}
 }
