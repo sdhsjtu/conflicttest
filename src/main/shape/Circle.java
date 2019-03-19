@@ -1,5 +1,5 @@
 package shape;
 
-public class Circle extends Shape{
+public class Circle extends Shape1{
 
 }
