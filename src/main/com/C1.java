@@ -4,8 +4,7 @@ public class C1 {
 	private int i;
 	
 	public int addI(int j) {
-		++j;
 		System.out.println("function addI");
-		return j;
+		return j+2;
 	}
 }
