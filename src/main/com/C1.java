@@ -9,6 +9,7 @@ public class C1 {
 	}
 	
 	public double getAllLength(Circle s,int i) {
+		s = new Circle(i);
 		return 0;
 	}
 }
