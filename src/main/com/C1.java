@@ -2,9 +2,10 @@ package com;
 
 import shape.Circle;
 import shape.Shape;
+import shape.Square;
 
 public class C1 {
-	private Shape s = new Circle(1);
+	private Shape s = new Square(1);
 	
 	public int addI(int j) {
 		System.out.println("function addI");
