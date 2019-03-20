@@ -8,10 +8,17 @@ public class C1 {
 		return j+2;
 	}
 
-	public double getAllLength(Circle s,int i) {
+	public static double getAllLength(Circle s,int i) {
 		for(int k=0;k<10;++k) {
 			int j=0;
 		}
 		return 0;
 	}
+	
+	public static boolean equal(int i,int j) {
+		return i==j;
+	}
+//	public static boolean equal(Integer i,Integer j) {
+//		return i==j;
+//	}
 }
