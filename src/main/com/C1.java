@@ -1,5 +1,7 @@
 package com;
 
+import java.awt.Rectangle;
+
 import shape.Circle;
 
 public class C1 {
@@ -8,7 +10,7 @@ public class C1 {
 		return j+2;
 	}
 	
-	public double getAllLength(Circle s,int i) {
+	public double getAllLength(Rectangle s,int i) {
 		return 0;
 	}
 }
