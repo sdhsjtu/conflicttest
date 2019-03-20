@@ -11,7 +11,7 @@ public class C1 {
 		return j+2;
 	}
 	
-	public int getAllLength(int j) {
-		return 0;
+	public double getAllLength(int j) {
+		return s.getLength(j);
 	}
 }

@@ -1,7 +1,7 @@
 package shape;
 
 public class Shape {
-	public int getVal(int i) {
-		return i;
+	public double getLength(int i){
+		return 0;
 	}
 }
