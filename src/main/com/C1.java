@@ -11,7 +11,7 @@ public class C1 {
 	public double getAllLength(Circle s,int i) {
 		s = new Circle(i);
 		for(int k=0;k<10;++k) {
-			
+			int j=0;
 		}
 		return 0;
 	}
