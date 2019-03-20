@@ -15,7 +15,7 @@ public class C1 {
 		return 0;
 	}
 	
-	public static boolean equal(Integer i,Integer j) {
+	public static boolean equal(int i,int j) {
 		return i==j;
 	}
 }
