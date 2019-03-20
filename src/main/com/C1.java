@@ -12,7 +12,7 @@ public class C1 {
 		int j=0;
 		s = new Circle(i);
 		for(int k=0;k<10;++k) {
-			
+			int j=0;
 		}
 		return 0;
 	}
