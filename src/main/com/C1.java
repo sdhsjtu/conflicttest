@@ -8,7 +8,7 @@ public class C1 {
 		return j+2;
 	}
 	
-	public double getAllLength(Circle s) {
+	public double getAllLength(Circle s,int i) {
 		return 0;
 	}
 }
