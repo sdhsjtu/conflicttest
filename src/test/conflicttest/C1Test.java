@@ -10,9 +10,9 @@ public class C1Test {
 
 	@Test
 	public void test() {
-		C1 c1 = new C1();
-		int ans = c1.addI(1);
-		assertEquals(2, ans);
+//		C1 c1 = new C1();
+//		int ans = c1.getAllLength(1);
+//		assertEquals(2*Math.PI, ans);
 	}
 
 }
