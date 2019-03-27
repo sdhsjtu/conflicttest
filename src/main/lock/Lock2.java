@@ -9,7 +9,9 @@ public class Lock2 implements Runnable {
                 synchronized(DeadLock.obj2){
                     System.out.println("Lock2 lock obj2");
                     Thread.sleep(1000);
-
+                    synchronized(DeadLock.obj1){
+                        System.out.println("Lock2 lock obj1");
+                    }
                 }
             }
         }catch(Exception e){
