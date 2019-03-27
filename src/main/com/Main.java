@@ -2,7 +2,7 @@ package com;
 
 public class Main {
 	public static String s(String name) {
-		boolean flag1 = false;
+		boolean flag1 = true;
 		/*
 		 * 
 		 */
