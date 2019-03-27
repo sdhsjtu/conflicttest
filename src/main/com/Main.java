@@ -6,7 +6,9 @@ public class Main {
 		String s1 = "str";
 		String s2 = "str";
 		System.out.println(s1);
-
+		if(s1.equals(s2)) {
+			System.out.println("equal");
+		}
 	}
 
 }
