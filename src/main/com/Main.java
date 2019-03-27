@@ -2,11 +2,15 @@ package com;
 
 public class Main {
 	public static String s(String name) {
-		if(name.equals("Charles"))
-			return "Charles is invalid";
+		boolean flag1 = false;
 		/*
 		 * 
 		 */
+		boolean flag2 = false;
+		while(flag1 && flag2) {
+			System.out.println("flag is true");
+		}
+		
 		if (name != null) {
             return name;
         }
@@ -14,6 +18,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
+		s("str");
 	}
 
 }
