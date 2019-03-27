@@ -22,7 +22,7 @@ public class SocketServer {
 		}
 		System.out.println("get message from client: " + sb);
 		inputStream.close();
-		socket.close();
-		server.close();
+//		socket.close();
+//		server.close();
 	}
 }
