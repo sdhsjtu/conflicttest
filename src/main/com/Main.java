@@ -6,7 +6,7 @@ public class Main {
 		/*
 		 * 
 		 */
-		boolean flag2 = false;
+		boolean flag2 = true;
 		while(flag1 && flag2) {
 			System.out.println("flag is true");
 		}
