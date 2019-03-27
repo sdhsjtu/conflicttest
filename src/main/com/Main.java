@@ -6,7 +6,9 @@ public class Main {
 		/*
 		 * 
 		 */
-
+		if (name != null) {
+            return name;
+        }
         return null;     
 	}
 
