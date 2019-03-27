@@ -6,7 +6,7 @@ import java.util.Random;
 import java.util.Vector;
 
 public class RandomNum implements Runnable {
-	private List<String> list = new Vector<String>();
+	private List<String> list = new ArrayList<String>();
 
 	public List<String> getList() {
 		return list;
