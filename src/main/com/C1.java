@@ -4,7 +4,7 @@ package com;
 public class C1 {
 	public float f;
 	
-	public void dosth(int l) {
+	public void dosth(long l) {
 		System.out.println(l);
 	}
 }
