@@ -6,22 +6,23 @@ public class ReadTxt {
 
 	public static void main(String args[]) {
 		readFile();
+		//
 	}
 
 	/**
-	 * ¶ÁÈëTXTÎÄ¼ş
+	 * è¯»å…¥TXTæ–‡ä»¶
 	 */
 	public static void readFile() {
-		String pathname = "d://input.txt"; // ¾ø¶ÔÂ·¾¶»òÏà¶ÔÂ·¾¶¶¼¿ÉÒÔ£¬Ğ´ÈëÎÄ¼şÊ±ÑİÊ¾Ïà¶ÔÂ·¾¶,¶ÁÈ¡ÒÔÉÏÂ·¾¶µÄinput.txtÎÄ¼ş
-		// ·ÀÖ¹ÎÄ¼ş½¨Á¢»ò¶ÁÈ¡Ê§°Ü£¬ÓÃcatch²¶×½´íÎó²¢´òÓ¡£¬Ò²¿ÉÒÔthrow;
-		// ²»¹Ø±ÕÎÄ¼ş»áµ¼ÖÂ×ÊÔ´µÄĞ¹Â¶£¬¶ÁĞ´ÎÄ¼ş¶¼Í¬Àí
-		// Java7µÄtry-with-resources¿ÉÒÔÓÅÑÅ¹Ø±ÕÎÄ¼ş£¬Òì³£Ê±×Ô¶¯¹Ø±ÕÎÄ¼ş£»ÏêÏ¸½â¶Áhttps://stackoverflow.com/a/12665271
-		try (FileReader reader = new FileReader(pathname); BufferedReader br = new BufferedReader(reader) // ½¨Á¢Ò»¸ö¶ÔÏó£¬Ëü°ÑÎÄ¼şÄÚÈİ×ª³É¼ÆËã»úÄÜ¶Á¶®µÄÓïÑÔ
+		String pathname = "d://input.txt"; // ç»å¯¹è·¯å¾„æˆ–ç›¸å¯¹è·¯å¾„éƒ½å¯ä»¥ï¼Œå†™å…¥æ–‡ä»¶æ—¶æ¼”ç¤ºç›¸å¯¹è·¯å¾„,è¯»å–ä»¥ä¸Šè·¯å¾„çš„input.txtæ–‡ä»¶
+		// é˜²æ­¢æ–‡ä»¶å»ºç«‹æˆ–è¯»å–å¤±è´¥ï¼Œç”¨catchæ•æ‰é”™è¯¯å¹¶æ‰“å°ï¼Œä¹Ÿå¯ä»¥throw;
+		// ä¸å…³é—­æ–‡ä»¶ä¼šå¯¼è‡´èµ„æºçš„æ³„éœ²ï¼Œè¯»å†™æ–‡ä»¶éƒ½åŒç†
+		// Java7çš„try-with-resourceså¯ä»¥ä¼˜é›…å…³é—­æ–‡ä»¶ï¼Œå¼‚å¸¸æ—¶è‡ªåŠ¨å…³é—­æ–‡ä»¶ï¼›è¯¦ç»†è§£è¯»https://stackoverflow.com/a/12665271
+		try (FileReader reader = new FileReader(pathname); BufferedReader br = new BufferedReader(reader) // å»ºç«‹ä¸€ä¸ªå¯¹è±¡ï¼Œå®ƒæŠŠæ–‡ä»¶å†…å®¹è½¬æˆè®¡ç®—æœºèƒ½è¯»æ‡‚çš„è¯­è¨€
 		) {
 			String line;
-			// ÍøÓÑÍÆ¼ö¸ü¼Ó¼ò½àµÄĞ´·¨
+			// ç½‘å‹æ¨èæ›´åŠ ç®€æ´çš„å†™æ³•
 			while ((line = br.readLine()) != null) {
-				// Ò»´Î¶ÁÈëÒ»ĞĞÊı¾İ
+				// ä¸€æ¬¡è¯»å…¥ä¸€è¡Œæ•°æ®
 				System.out.println(line);
 			}
 		} catch (IOException e) {
